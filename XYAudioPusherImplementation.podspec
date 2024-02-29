@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint XYAudioPusher.podspec' to ensure this is a
+# Be sure to run `pod lib lint XYAudioPusherImplementation.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XYAudioPusher'
+  s.name             = 'XYAudioPusherImplementation'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XYAudioPusher.'
+  s.summary          = 'A short description of XYAudioPusherImplementation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,23 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hengzh/XYAudioPusher'
+  s.homepage         = 'https://github.com/hengzh/XYAudioPusherImplementation'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hengzh' => 'onethousandpiece@gmail.com' }
-  s.source           = { :git => 'https://github.com/hengzh/XYAudioPusher.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hengzh/XYAudioPusherImplementation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XYAudioPusher/Classes/**/*.h'
+  s.source_files = 'XYAudioPusher/Classes/**/*.m'
+
   s.static_framework = true
 
   # s.resource_bundles = {
-  #   'XYAudioPusher' => ['XYAudioPusher/Assets/*.png']
+  #   'XYAudioPusherImplementation' => ['XYAudioPusherImplementation/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'liveCoreShared'
+  s.dependency 'liveCoreShared'
 end

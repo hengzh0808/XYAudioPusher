@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XYAudioPusher_Tests' do
+  pod 'XYAudioPusher', :path => '../'
+  
+  
+end

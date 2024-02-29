@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'XYAudioPusher/Classes/**/*.h'
+  s.source_files = 'XYAudioPusher/Classes/**/*'
   s.static_framework = true
 
   # s.resource_bundles = {
@@ -39,5 +39,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'liveCoreShared'
+  #  s.dependency 'liveCoreShared'
 end
